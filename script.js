@@ -53,6 +53,7 @@
 // What if I wanted to post DATA?
 
 fetch("https://reqres.in/api/users", {
+	// Add these options
 	method: "POST",
 	headers: {
 		"Content-Type": "application/json",
